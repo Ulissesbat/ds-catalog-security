@@ -29,7 +29,6 @@ public class UserDTO implements Serializable {
 	}
 	
 	public UserDTO(User entity) {
-		super();
 		id =entity.getId();
 		firstName = entity.getFirstName();
 		lastName = entity.getLastName();
